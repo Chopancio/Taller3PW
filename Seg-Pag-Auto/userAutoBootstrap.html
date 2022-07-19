@@ -9,30 +9,84 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css">
+    <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 
-    <link rel="stylesheet" href="userbootstrapS.css">
 
-    <title>Formulario de registro Con Bootstrap</title>
+    <link rel="stylesheet" href="userAutoBootstrapS.css">
+
+    <title>Formulario de registro Autos Con Bootstrap</title>
 
 </head>
 
 <body>
 
     <div class="modal-dialog text-center">
-        <div class="col-sm-6 main-section">
+        <div class="col-sm-8 main-section">
             <div class="modal-content">
-                <div class="col-12 user-img">
-                    <img src="icon-usuario.png">
-                </div>
-                <form class="col-12">
+
+
+                <form class="col-14">
                     <div class="form-group">
-                        <input type="text" class="form-control" id="urs" placeholder="Nombre del Usuario" />
+
+                        <input type="text" class="form-control" id="coche" placeholder="Coche" />
+
                     </div>
                     <div class="form-group">
-                        <input type="password" class="form-control" id="contraseñas" placeholder="Contraseña">
+
+                        <select class="form-control" id="movidoa" placeholder="Tipo de Combustible">
+
+                            <option value="Elegir" id="Elegir">Tipo de Combustible</option>
+                            <option value="Corriente" id="COR">Corriente</option>
+                            <option value="Extra" id="EXT">Extra</option>
+                            <option value="Disel" id="DIL">Disel</option>
+                            <option value="Gas licuado" id="GASL">Gas licuado</option>
+                            <option value="Gas natural" id="GASN">Gas natural</option>
+                            <option value="Electrico" id="Elt">Electrico</option>
+
+                        </select>
+
                     </div>
                     <div class="form-group">
-                        <select name="paises" class="form-control" id="pais" placeholder="Elija su pais">
+
+                        <select class="form-control" id="tipocoche" placeholder="Tipo de Coche">
+
+                            <option value="Tipo de coche" id="Elegir">Tipo de Coche</option>
+                            <option value="SUV" id="SUV">SUV</option>
+                            <option value="Hatchback" id="HAT">Hatchback</option>
+                            <option value="Crossover" id="CRVR">Crossover</option>
+                            <option value="Convertible" id="CNVR">Convertible</option>
+                            <option value="Sedan" id="SED">Sedan</option>
+                            <option value="Deportivo" id="SPTC">Deportivo</option>
+                            <option value="Coupe" id="CUP">Coupe</option>
+                            <option value="Minivan" id="MINV">Minivan</option>
+                            <option value="Station Wagon" id="STWG">De vagon</option>
+                            <option value="Camioneta pickup" id="CMPK">Pickup</option>
+
+                        </select>
+
+                    </div>
+                    <div class="form-group">
+
+                        <select class="form-control" id="estado" placeholder="Estado">
+
+                            <option value="Estado del vehiculo" id="Elegir">Estado del vehiculo</option>
+
+                        </select>
+
+                    </div>
+                    <div class="form-group">
+
+                        <select class="form-control" id="usr" placeholder="Usuario">
+
+                            <option value="Usuario" id="USR">Usuario</option>
+
+                        </select>
+
+                    </div>
+                    <div class="form-group">
+
+                        <select class="form-control" id="pais" placeholder="Elegir pais">
 
                             <option value="Elegir" id="Elegir">Elegir pais</option>
                             <option value="Afganistán" id="AF">Afganistán</option>
@@ -111,8 +165,8 @@
                             <option value="Gabón" id="GA">Gabón</option>
                             <option value="Gambia" id="GM">Gambia</option>
                             <option value="Georgia" id="GE">Georgia</option>
-                            <option value="Georgia del Sur y las islas Sandwich del Sur" id="GS">Georgia del Sur y las
-                                islas Sandwich del Sur</option>
+                            <option value="Georgia del Sur y las islas Sandwich del Sur" id="GS">Georgia del Sur y
+                                las islas Sandwich del Sur</option>
                             <option value="Ghana" id="GH">Ghana</option>
                             <option value="Gibraltar" id="GI">Gibraltar</option>
                             <option value="Granada" id="GD">Granada</option>
@@ -145,7 +199,8 @@
                             <option value="Islas de Cocos o Keeling" id="CC">Islas de Cocos o Keeling</option>
                             <option value="Islas Faroe" id="FO">Islas Faroe</option>
                             <option value="Islas Fiyi" id="FJ">Islas Fiyi</option>
-                            <option value="Islas Malvinas Islas Falkland" id="FK">Islas Malvinas Islas Falkland</option>
+                            <option value="Islas Malvinas Islas Falkland" id="FK">Islas Malvinas Islas Falkland
+                            </option>
                             <option value="Islas Marianas del norte" id="MP">Islas Marianas del norte</option>
                             <option value="Islas Marshall" id="MH">Islas Marshall</option>
                             <option value="Islas menores de Estados Unidos" id="UM">Islas menores de Estados Unidos
@@ -256,9 +311,10 @@
                             <option value="Taiwán" id="TW">Taiwán</option>
                             <option value="Tanzania" id="TZ">Tanzania</option>
                             <option value="Tayikistán" id="TJ">Tayikistán</option>
-                            <option value="Territorios británicos del océano Indico" id="IO">Territorios británicos del
-                                océano Indico</option>
-                            <option value="Territorios franceses del sur" id="TF">Territorios franceses del sur</option>
+                            <option value="Territorios británicos del océano Indico" id="IO">Territorios británicos
+                                del océano Indico</option>
+                            <option value="Territorios franceses del sur" id="TF">Territorios franceses del sur
+                            </option>
                             <option value="Timor Oriental" id="TP">Timor Oriental</option>
                             <option value="Togo" id="TG">Togo</option>
                             <option value="Tonga" id="TO">Tonga</option>
@@ -283,22 +339,50 @@
 
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control" id="nombres" placeholder="Nombre">
+
+                        <input type="text" class="form-control" id="modelo" placeholder="Modelo" />
+
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control" id="apellidos" placeholder="Apellido">
+
+                        <input type="number" class="form-control" id="anio" placeholder="Año" />
+
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control" id="direccion" placeholder="Direccion">
+
+                        <input type="text" class="form-control" id="detalle" placeholder="Detalle" />
+
                     </div>
                     <div class="form-group">
-                        <input type="email" class="form-control" id="correo" placeholder="Correo electronico">
+
+                        <input type="text" class="form-control" id="caja" placeholder="Caja" />
+
                     </div>
                     <div class="form-group">
-                        <input type="tel" class="form-control" id="celular" placeholder="Telefono Celular"
-                            pattern="[0-9]" title="El numero telefonico solo puede contener numeros e.g. 0-9">
+
+                        <input type="text" class="form-control" id="motor" placeholder="Motor" />
+
                     </div>
-                    <button type="submit" class="btn btn-primary">Registrar</button>
+                    <div class="form-group">
+
+                        <input type="text" class="form-control" id="fechapub" placeholder="Fecha de Publicacion" />
+
+                    </div>
+                    <div class="form-group">
+
+                        <input type="text" class="form-control" id="precio" placeholder="Precio" />
+
+                    </div>
+                    <div class="form-group">
+
+                        <input type="text" class="form-control" id="moneda" placeholder="Moneda" />
+
+                    </div>
+                    <div class="form-group">
+
+                        <input type="text" class="form-control" id="descp" placeholder="Descripcion del Carro" />
+
+                    </div>
                 </form>
             </div>
         </div>
